@@ -7,12 +7,11 @@ import {
     Divider,
     Button
 } from '@chakra-ui/react'
-import { BsDashLg } from 'react-icons/Bs'
 
 const NotFound = () => {
     return (
         <Container>
-            <Heading as="h1">I&apos;m still  building things out <BsDashLg /> come back later! </Heading>
+            <Heading as="h1">Still  building things out <br /> ---- <br/> Come back later! </Heading>
             <Divider my={6} />
             <Text>Error 404: Page doesn&apos;t exist... yet</Text>
             
