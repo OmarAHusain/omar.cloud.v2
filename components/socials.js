@@ -7,7 +7,7 @@ import {
 const Socials = ({href, name, logo, color}) => {
     const variant = "solid"
     if (color === "gray") {
-        variant = "outline"
+        //variant = "outline"
     }
     return (
         <Box
