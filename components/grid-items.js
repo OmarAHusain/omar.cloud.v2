@@ -12,7 +12,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => {
                     src={thumbnail}
                     alt={title}
                     className="grid-item-thumbnail"
-                    loading='lazy'
+                    loading="eager"
                     height="160px"
                     width="264px"
                     style={{borderRadius: '10px', overflow: 'hidden'}}
