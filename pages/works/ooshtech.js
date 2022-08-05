@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-    <Layout Title="ooshTech">
+    <Layout title="ooshTech">
         <Container>
             <Divider my={6} />
             <Title>
