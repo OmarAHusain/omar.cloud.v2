@@ -24,7 +24,7 @@ const Works = () => (
             </Section>
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section delay={0.2}>
-                    <WorkGridItem id="ooshtech" title="" thumbnail={thumbOosh}>
+                    <WorkGridItem id="ooshtech" title="ooshTech" thumbnail={thumbOosh}>
                         A cloud-based platform for Out Of School Hours (OOSH) services to manage students, parents, teachers, and visitors.
                     </WorkGridItem>
                 </Section>
