@@ -21,6 +21,10 @@ export const WorkImage = ({ src, alt }) => (
     <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} /> 
 )
 
+export const MedImage = ({ src, alt }) => (
+    <Image borderRadius="lg" boxSize='250px' src={src} alt={alt} mb={4} />
+)
+
 export const Meta = ({ children }) => (
     <Badge colorScheme="blue" mr={2}>
         { children }

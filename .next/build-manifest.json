@@ -30,20 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/media": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/media.js"
-    ],
     "/works": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/fitsidekick": [
+    "/works/consulting": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/fitsidekick.js"
+      "static/chunks/pages/works/consulting.js"
+    ],
+    "/works/generator": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/generator.js"
     ],
     "/works/ooshtech": [
       "static/chunks/webpack.js",

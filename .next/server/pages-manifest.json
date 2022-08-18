@@ -3,8 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/works/ooshtech": "pages/works/ooshtech.js",
   "/works": "pages/works.js",
-  "/works/fitsidekick": "pages/works/fitsidekick.js",
-  "/media": "pages/media.js"
+  "/works/consulting": "pages/works/consulting.js",
+  "/works/ooshtech": "pages/works/ooshtech.js",
+  "/works/generator": "pages/works/generator.js"
 }

@@ -92,7 +92,7 @@ const Home = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Omar is a Technical Program Manager (TPM) at AWS, freelance CTO and full-stack developer. 
+                        Omar is a Technical Program Manager (TPM) at Amazon Web Services, freelance management consultant and full-stack developer. 
                         On the side he has a passion for motorcycles, snowboarding, and robots. Sometimes they overlap.
                         <NextLink href="/" pasHref scroll={false}>
                             <Link target="_blank"></Link>

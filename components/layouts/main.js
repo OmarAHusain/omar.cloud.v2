@@ -13,11 +13,8 @@ const Main = ({ children, router }) => {
                 </Head>
 
                 <Navbar path={router.asPath} />
-
-                <Container maxW="container.md" pt={14}>
-                        
+                <Container maxW="container.lg" pt={14}>                       
                         {children}
-
                         <Footer />
                 </Container>
             </Box>
