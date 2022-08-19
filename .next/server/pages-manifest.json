@@ -4,7 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/works": "pages/works.js",
-  "/works/consulting": "pages/works/consulting.js",
-  "/works/ooshtech": "pages/works/ooshtech.js",
-  "/works/generator": "pages/works/generator.js"
+  "/works/consulting": "pages/works/consulting.js"
 }

@@ -39,16 +39,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works/consulting.js"
-    ],
-    "/works/generator": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/generator.js"
-    ],
-    "/works/ooshtech": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/ooshtech.js"
     ]
   },
   "ampFirstPages": []

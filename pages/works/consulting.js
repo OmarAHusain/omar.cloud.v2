@@ -40,7 +40,7 @@ const Work = () => (
                     Summary
                 </Heading>
                 <P>
-                    I help content creators and startups develop. This includes identifying product market fit, defining short to long term strategy, developing rythym, and tackling the big problems.
+                    I help content creators and startups develop. This includes identifying product market fit, defining short to long term strategy, developing rhythm, and tackling the big problems.
                     My methods involve working with you to discover your business direction and helping you decide your next steps in growth. 
                 </P>
             </Section>
@@ -64,7 +64,7 @@ const Work = () => (
             <Section delay={0.4}>
                 <Divider my={6} />
                 
-                <SimpleGrid columns={2} gap={4} >
+                <SimpleGrid columns={[1, 1, 2]} gap={4} >
                     <Box>
                         <Heading as="h3" fontSize={18} mb={4}>
                             Strategy Management 
@@ -82,7 +82,7 @@ const Work = () => (
             
             <Section delay={0.5}>
                 <Divider my={6} />
-                <SimpleGrid columns={2} gap={4}>
+                <SimpleGrid columns={[1, 1, 2]} gap={4}>
                     <Box>
                         <Heading as="h3" fontSize={18} mb={4}>
                             Program Management  
@@ -99,7 +99,7 @@ const Work = () => (
             </Section>
             <Section delay={0.6}>
                 <Divider my={6} />
-                <SimpleGrid columns={2} gap={4}>
+                <SimpleGrid columns={[1, 1, 2]} gap={4}>
                     <Box>
                         <Heading as="h3" fontSize={18} mb={4}>
                             Product Management
