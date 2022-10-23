@@ -124,7 +124,7 @@ const Home = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2020 to Current</BioYear>
+                        <BioYear>2020+</BioYear>
                         Technical Program Manager | Amazon Web Services
                     </BioSection>
                     <BioSection>

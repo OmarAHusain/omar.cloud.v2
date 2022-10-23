@@ -75,9 +75,9 @@ const Navbar = props => {
                     <LinkItem href="/works" path={path}>
                         Works
                     </LinkItem>
-                    {/* <LinkItem href="/posts" path={path}> 
-                        Posts
-                    </LinkItem> */}
+                    <LinkItem href="https://workout.omar.cloud" path={path}> 
+                        Workouts
+                    </LinkItem>
                     <LinkItem href="/media" path={path}>
                         Media
                     </LinkItem>
@@ -99,9 +99,9 @@ const Navbar = props => {
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
-                                {/* <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link}>Posts</MenuItem>
-                                </NextLink> */}
+                                <NextLink href="https://workout.omar.cloud" passHref>
+                                    <MenuItem as={Link}>Workouts</MenuItem>
+                                </NextLink>
                                 <NextLink href="/media" passHref>
                                     <MenuItem as={Link}>Media</MenuItem>
                                 </NextLink>
