@@ -149,7 +149,7 @@ const Home = () => {
                         <BioYear>2010</BioYear>Bachelor of Computing | University of Tasmania
                     </BioSection>
                     <BioSection>
-                        <BioYear>1987</BioYear>Born in Sydney, Australia (EORA Nation)
+                        <BioYear>1987</BioYear>Born in Sydney, Australia (Eora Nation)
                     </BioSection>
                 </Section>
             </Container>
