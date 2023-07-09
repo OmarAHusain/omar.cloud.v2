@@ -7,8 +7,9 @@ import me from '../public/images/ProfilePic2.jpg'
 import bsc from '../public/images/bscwhite.png'
 import thumbOosh from '../public/images/ooshTech.jpg'
 import thumbFit from '../public/images/fitSideKick.png'
-import placeholder from '../public/images/placeholder-small.jpeg'
-
+import workout from '../public/images/workout.png'
+import generator from '../public/images/generator.png'
+// import placeholder from '../public/images/placeholder-small.jpeg'
 
 
 const Works = () => (
@@ -55,12 +56,17 @@ const Works = () => (
                 </Heading>
             </Section>
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
-            <Section delay={0.7}>
-                    <WorkGridItem id="generator" title="Proposal Generator" thumbnail={placeholder} >
-                        No Longer working on this <br /> A content re-use tool which allows sales teams to quickly generate targeted proposal documents for their customer&apos;s specific needs.
+                <Section delay={0.7}>
+                    <WorkGridItem id="workout" title="Workout App" thumbnail={workout} >
+                        No longer building <br /> I built a custom weightlifting tracking web app for myself. Decided to focus on other projects.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.8}>
+                    <WorkGridItem id="generator" title="Proposal Generator" thumbnail={generator} >
+                        No longer building <br /> A content re-use tool which allows sales teams to quickly generate targeted proposal documents for their customer&apos;s specific needs.
+                    </WorkGridItem>
+                </Section>
+                <Section delay={0.9}>
                     <WorkGridItem id="fitsidekick" title="FitSidekick" thumbnail={thumbFit} >
                         No Longer in Operation <br /> FitSideKick was a fitness match-making platform based on fitness goals, experience, and activity.
                     </WorkGridItem>

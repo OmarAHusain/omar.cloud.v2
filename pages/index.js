@@ -92,7 +92,7 @@ const Home = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Omar is a Technical Program Manager (TPM) at Amazon Web Services, freelance management consultant and full-stack developer. 
+                        Omar is a Director at BeautySciComm, freelance management consultant and full-stack developer. 
                         On the side he has a passion for motorcycles, snowboarding, and robots. Sometimes they overlap.
                         <NextLink href="/" pasHref scroll={false}>
                             <Link target="_blank"></Link>
@@ -124,7 +124,11 @@ const Home = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2020+</BioYear>
+                        <BioYear>2023</BioYear>
+                        Co-founder & Director | BeautySciComm
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2020</BioYear>
                         Technical Program Manager | Amazon Web Services
                     </BioSection>
                     <BioSection>
