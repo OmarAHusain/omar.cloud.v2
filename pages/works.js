@@ -38,7 +38,7 @@ const Works = () => (
                 </Section>
                 <Section delay={0.4}>
                     <WorkGridItem id="ooshtech" title="ooshTech" thumbnail={thumbOosh}>
-                        A cloud-based platform for Out Of School Hours (OOSH) services to manage students, parents, teachers, and visitors.
+                        A platform for Out Of School Hours (OOSH) services to manage students, parents, teachers, and visitors.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.5}>
@@ -57,18 +57,18 @@ const Works = () => (
             </Section>
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section delay={0.7}>
-                    <WorkGridItem id="workout" title="Workout App" thumbnail={workout} >
-                        No longer building <br /> I built a custom weightlifting tracking web app for myself. Decided to focus on other projects.
+                    <WorkGridItem id="workout" title="Workout Tracker" thumbnail={workout} >
+                        No longer building <br /> I built a custom weightlifting tracking web app. Decided to focus on other projects.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.8}>
                     <WorkGridItem id="generator" title="Proposal Generator" thumbnail={generator} >
-                        No longer building <br /> A content re-use tool which allows sales teams to quickly generate targeted proposal documents for their customer&apos;s specific needs.
+                        No longer building <br /> Content re-use tool to quickly generate targeted proposal documents.
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.9}>
                     <WorkGridItem id="fitsidekick" title="FitSidekick" thumbnail={thumbFit} >
-                        No Longer in Operation <br /> FitSideKick was a fitness match-making platform based on fitness goals, experience, and activity.
+                        No Longer in Operation <br /> A fitness match-making platform based on fitness goals, experience, and activity.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
