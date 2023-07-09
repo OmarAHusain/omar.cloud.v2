@@ -34,7 +34,7 @@ const Home = () => {
                     align="center"
                     css={{ backdropFilter: 'blur(10px)' }}
                     >
-                    TPM @ AWS | MBA @ USYD
+                    Dir @ BSC | MBA @ USYD
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
