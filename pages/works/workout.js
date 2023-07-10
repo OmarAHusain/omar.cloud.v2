@@ -28,7 +28,7 @@ const Workout = () => (
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Purpose</Meta>
-                        <span>To create a remotely controlled humanoid robot</span>
+                        <span>To track my weightlifting exercises and performance over time</span>
                     </ListItem>
                 </List>
             </Box>
@@ -37,8 +37,7 @@ const Workout = () => (
                     Summary
                 </Heading>
                 <P>
-                    I help content creators and startups develop. This includes identifying product market fit, defining short to long term strategy, developing rhythm, and tackling the big problems.
-                    My methods involve working with you to discover your business direction and helping you decide your next steps in growth. 
+                    I was searching for a good weightlifting tracker that could replace a simple pen/paper for gym use. The premise was to track the exercises I performed, the weights, and the sets/reps. Unfortunately I discovered my gym has bad reception and was unable to enter in data while working out. A lesson to test small before building an entire app. Now working on other projects instead.
                 </P>
             </Section>
             <Section delay={0.3}>
@@ -55,7 +54,7 @@ const Workout = () => (
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>VueJS, NodeJS, GCP, Firestore</span>
+                        <span>NextJS, AWS Amplify, AWS DynamoDB</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
