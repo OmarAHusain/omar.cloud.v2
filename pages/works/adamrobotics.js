@@ -37,8 +37,7 @@ const Adamrobotics = () => (
                     Summary
                 </Heading>
                 <P>
-                    I help content creators and startups develop. This includes identifying product market fit, defining short to long term strategy, developing rhythm, and tackling the big problems.
-                    My methods involve working with you to discover your business direction and helping you decide your next steps in growth. 
+                    I hope to build the first seamless and intuitive human controlled humanoid robot built with a combination of custom 3d printing, off the shelf electronics, and VR.
                 </P>
             </Section>
             <Section delay={0.3}>

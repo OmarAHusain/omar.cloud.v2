@@ -36,6 +36,7 @@ const Home = () => {
                     >
                     Dir @ BSC | MBA @ USYD
                 </Box>
+                <Section delay={0.1}>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading 
@@ -76,7 +77,7 @@ const Home = () => {
                         </Box>
                     </Box>
                 </Box>
-
+                </Section>
                 <Section delay={0.2}>
                     <Heading 
                         as="h3" 
@@ -98,6 +99,8 @@ const Home = () => {
                             <Link target="_blank"></Link>
                         </NextLink>
                     </Paragraph>
+                </Section>
+                <Section delay={0.3}>
                     <Box align="center" my={4}>
                         <NextLink href="/works" passHref scroll={false}>
                             <Button 
@@ -123,35 +126,55 @@ const Home = () => {
                     >
                         Bio
                     </Heading>
+                </Section>
+                <Section delay={0.5}>
                     <BioSection>
                         <BioYear>2023</BioYear>
                         Co-founder & Director | BeautySciComm
                     </BioSection>
+                </Section>
+                <Section delay={0.6}>
                     <BioSection>
                         <BioYear>2020</BioYear>
                         Technical Program Manager | Amazon Web Services
                     </BioSection>
+                </Section>
+                <Section delay={0.7}>
                     <BioSection>
                         <BioYear>2020</BioYear>Master of Business Administration | University of Sydney
                     </BioSection>
+                </Section>
+                <Section delay={0.8}>
                     <BioSection>
                         <BioYear>2016</BioYear>Country IT Manager AU/NZ | H&M
                     </BioSection>
+                </Section>
+                <Section delay={0.9}>
                     <BioSection>
                         <BioYear>2015</BioYear>Systems Consultant | Microchannel Services
                     </BioSection>
+                </Section>
+                <Section delay={1}>
                     <BioSection>
                         <BioYear>2013</BioYear>Systems Consultant | Oriel Technologies
                     </BioSection>
+                </Section>
+                <Section delay={1.1}>
                     <BioSection>
                         <BioYear>2011</BioYear>Client Engineer | NBCUniversal
                     </BioSection>
+                </Section>
+                <Section delay={1.2}>
                     <BioSection>
                         <BioYear>2010</BioYear>Systems Analyst | JBWere Goldman Sachs
                     </BioSection>
+                </Section>
+                <Section delay={1.3}>
                     <BioSection>
                         <BioYear>2010</BioYear>Bachelor of Computing | University of Tasmania
                     </BioSection>
+                </Section>
+                <Section delay={1.4}>
                     <BioSection>
                         <BioYear>1987</BioYear>Born in Sydney, Australia (Eora Nation)
                     </BioSection>

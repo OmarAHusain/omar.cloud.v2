@@ -12,7 +12,7 @@ const Section = ({ children, delay = 0 }) => (
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay }}
-        mb={6}
+        mb={2}
     >
         {children}
     </StyledDiv>
