@@ -8,6 +8,7 @@ import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+import { FaTiktok } from 'react-icons/fa'
 import { createIcon } from '@chakra-ui/icons'
 
 
@@ -41,9 +42,12 @@ const Media = () => {
                     <Socials href="https://www.youtube.com/channel/UCxt0uBqVhnRv4VfaUsNII7Q" name="YouTube" logo={<FaYoutube />} color="red" passHref></Socials>
                 </Section>
                 <Section delay={0.6}>
-                    <Socials href="https://www.linkedin.com/in/omarahusain/" name="LinkedIn" logo={<FaLinkedin />} color="linkedin" passHref></Socials>
+                    <Socials href="https://www.tiktok.com/@omarbuilds" name="TikTok" logo={<FaTiktok />} color="gray" passHref></Socials>
                 </Section>
                 <Section delay={0.7}>
+                    <Socials href="https://www.linkedin.com/in/omarahusain/" name="LinkedIn" logo={<FaLinkedin />} color="linkedin" passHref></Socials>
+                </Section>
+                <Section delay={0.8}>
                     <Socials href="https://github.com/OmarAHusain" name="GitHub" logo={<FaGithub />} color="gray" passHref></Socials>
                 </Section>
             </Container>

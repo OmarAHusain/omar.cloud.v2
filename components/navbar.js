@@ -71,7 +71,13 @@ const Navbar = props => {
                     alignItems="center"
                     flexfrow={1}
                     mt={{ base: 4, nmd: 0 }}
-                >
+                >                    
+                    <LinkItem href="/works/beautyscicomm" path={path}>
+                        BeautySciComm
+                    </LinkItem>
+                    <LinkItem href="/works/adamrobotics" path={path}>
+                        Adam Robotics
+                    </LinkItem>
                     <LinkItem href="/works" path={path}>
                         Works
                     </LinkItem>
@@ -93,8 +99,11 @@ const Navbar = props => {
                                 aria-label="Options" 
                             />
                             <MenuList>
-                                <NextLink href="/" passHref>
-                                    <MenuItem as={Link}>About</MenuItem>
+                                <NextLink href="/works/beautyscicomm" passHref>
+                                    <MenuItem as={Link}>BeautySciComm</MenuItem>
+                                </NextLink>
+                                <NextLink href="/works/adamrobotics" passHref>
+                                    <MenuItem as={Link}>Adam Robotics</MenuItem>
                                 </NextLink>
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>

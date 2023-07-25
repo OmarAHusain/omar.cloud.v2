@@ -32,7 +32,7 @@ const Works = () => (
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.3}>
-                    <WorkGridItem id="adamrobotics" title="Adam Robotics" thumbnail={thumbOosh}>
+                    <WorkGridItem id="adamrobotics" title="Adam Robotics" thumbnail={me}>
                         Robotic engineering to replace human labour for bullshit jobs.
                     </WorkGridItem>
                 </Section>
